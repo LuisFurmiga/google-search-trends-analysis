@@ -15,8 +15,7 @@ google-search-trends-analysis/
 ├── scripts/
 │   ├── bigquery_connector.py # Conexão com BigQuery
 │   ├── data_cleaning.py      # Limpeza e preparação dos dados
-│   ├── forecasting.py        # Previsões usando Prophet
-│   └── ...                   # Outros scripts auxiliares
+│   └──  forecasting.py        # Previsões usando Prophet
 ├── .env                 # Variáveis de ambiente
 ├── requirements.txt     # Dependências do projeto
 ├── main.py              # Pipeline principal
