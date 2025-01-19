@@ -1,0 +1,15 @@
+{
+    "theme": "dark",
+    "default_top_n_queries": 10,
+    "forecast_periods": 12,
+    "visualizations": {
+        "search_volume_over_time": true,
+        "top_queries": true,
+        "seasonality_analysis": true,
+        "forecasting": true
+    },
+    "data_requirements": {
+        "columns": ["week", "query", "search_volume"],
+        "date_format": "%Y-%m-%d"
+    }
+}
